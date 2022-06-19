@@ -1,16 +1,10 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+My name is Shirin. I am a first year Ph.D. student in ESE department at Washington Univeristy in St. Louis. I am a group member at CIG LAB, advised by[ Professor Ulugbek Kamilov](https://cigroup.wustl.edu/ulugbek-s-kamilov/). I am interested in Computational Imaging, Medical Image Analysis, Inverse Problems and Deep Learning.  
 
 ### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I received the B.Sc. and M.S. degree in Electrical Engineering, Communication major from Sharif University of Technology, Tehran, Iran, in 2017 and 2020. I started my Ph.D. in Washington University in St. Louis on January 2021. 
