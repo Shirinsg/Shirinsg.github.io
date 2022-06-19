@@ -16,7 +16,7 @@ author: Shirin Shoushtari
 navbar-links:
   About Me: "aboutme"
   Publications : "publication"
-  CV: "CVShirin.pdf"
+  CV: "docs/CVShirin.pdf"
   Resources:
     - CIG LAB : "https://cigroup.wustl.edu/"
     
