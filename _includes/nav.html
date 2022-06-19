@@ -26,9 +26,7 @@
           </li>
         {% else %}
           <li class="nav-item">
-            <a href="{{ linkparts[1] | relative_url }}" 
-            {% if linkparts[1] contains '.pdf' %}target="_blank"{% endif %}
-            >{{ linkparts[0] }}</a>
+            <a href="{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
           </li>
         {%- endif -%}
       {%- endfor -%}
