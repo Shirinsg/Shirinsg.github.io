@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image and GIF List with Descriptions</title>
+    <title>Image with Description</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,59 +13,33 @@
         }
         .container {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: flex-start;
+            align-items: center;
             width: 70%;
             margin: auto;
             background-color: #fff;
             padding: 20px;
+            box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
         }
-        .image-list, .description-list {
-            width: 48%; /* Adjusted width to have some space between image and description */
+        .image-section, .description-section {
+            width: 50%;
         }
-        .image-item, .description-item {
-            margin-bottom: 20px;
-        }
-        img, .gif {
+        img {
             max-width: 100%;
             height: auto;
         }
-        .description-item {
+        .description-section {
             font-size: 18px;
-            text-align: justify;
+            padding-left: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="image-list">
-            <div class="image-item">
-                <img src="image1.jpg" alt="Image 1">
-            </div>
-            <div class="image-item">
-                <img src="assets/img/v2.gif" alt="GIF 2" class="gif">
-            </div>
-            <div class="image-item">
-                <img src="image3.jpg" alt="Image 3">
-            </div>
-            <div class="image-item">
-                <img src="animated4.gif" alt="GIF 4" class="gif">
-            </div>
+        <div class="image-section">
+            <img src="assets/img/v2.gif" alt="GIF 2" class="gif">
         </div>
-        <div class="description-list">
-            <div class="description-item">
-                <p>This is the description for the first image. It provides information and context about the image displayed.</p>
-            </div>
-            <div class="description-item">
-                <p>This is the description for the second GIF. It provides additional details and background about what the GIF represents.</p>
-            </div>
-            <div class="description-item">
-                <p>This is the description for the third image. Here you can write more about the subject of the image and its significance.</p>
-            </div>
-            <div class="description-item">
-                <p>This is the description for the fourth GIF. It provides information and context about the GIF displayed.</p>
-            </div>
+        <div class="description-section">
+            <p>This is the description for the image. It provides information and context about the image displayed. You can write about the subject of the image, its significance, and any other relevant details.</p>
         </div>
     </div>
 </body>
