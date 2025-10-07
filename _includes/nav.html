@@ -50,7 +50,8 @@
   {% if site.avatar and page.show-avatar != false %}
     <div class="avatar-container">
       <div class="avatar-img-border">
-        <a href="{{ '' | absolute_url }}">
+        <!-- FIXED: change link to /aboutme -->
+        <a href="{{ '/aboutme' | relative_url }}">
           <img alt="Navigation bar avatar" class="avatar-img" src="{{ site.avatar | relative_url }}" />
         </a>
       </div>
