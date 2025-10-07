@@ -3,6 +3,14 @@ layout: page
 title: About Me
 ---
 
+<style>
+/* only shrink the News list, not the header */
+.news-list {
+  font-size: 14px;      /* try 13px or 12px for smaller */
+  line-height: 1.6;
+}
+</style>
+
 My name is **Shirin Shoushtari**, and I am a fourth-year Ph.D. student in the **Department of Electrical and Systems Engineering (ESE)** at **Washington University in St. Louis**. I am a member of the [Computational Imaging Group (CIG Lab)](https://cigroup.wustl.edu), advised by [Professor Ulugbek Kamilov](https://ukmlv.github.io).  
 
 My research focuses on **computational imaging**, **medical image analysis**, **inverse problems**, and **distribution shift** in learning-based reconstruction methods. I am particularly interested in developing algorithms that enhance the robustness and interpretability of imaging systems.  
@@ -10,6 +18,7 @@ My research focuses on **computational imaging**, **medical image analysis**, **
 Before joining Washington University, I earned my **B.Sc.** and **M.S.** degrees in **Electrical Engineering (Communication Systems)** from **Sharif University of Technology**, Tehran, Iran, in 2017 and 2020, respectively. I began my Ph.D. studies at Washington University in **January 2022**.
 
 ## 📰 News
+<div class="news-list" markdown="1">
 
 - **October 2025** – Our paper *“Closed-Form Approximation of the Total Variation Proximal Operator”* has been **accepted for publication in IEEE Transactions on Computational Imaging (TCI)**.  
 - **September 2025** – Released a new preprint *“Analysis Plug-and-Play Methods for Imaging Inverse Problems.”*  
@@ -22,3 +31,4 @@ Before joining Washington University, I earned my **B.Sc.** and **M.S.** degrees
 - **March 2022** – Joined the CIG Lab at Washington University as a Ph.D. student.  
 - **January 2022** – Started my Ph.D. in Electrical and Systems Engineering at Washington University in St. Louis.  
 
+</div>
