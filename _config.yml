@@ -17,6 +17,7 @@ navbar-links:
   About Me: "aboutme"
   Publications : "publication"
   CV: "assets/Shirin_CV-2.pdf"
+  Google Scholar: "https://scholar.google.com/citations?user=KMx7OKcAAAAJ&hl=en"
   Resources:
     - CIG LAB : "https://cigroup.wustl.edu/"
     
@@ -44,7 +45,7 @@ social-network-links:
   email: "s.shirin@wustl.edu"
   github: Shirinsg
   twitter: s_shirin_s
-  google-scholar: "https://scholar.google.com/citations?user=KMx7OKcAAAAJ&hl=en"
+  #google-scholar: "https://scholar.google.com/citations?user=KMx7OKcAAAAJ&hl=en"
 #  patreon: DeanAttali
 #  youtube: c/daattali
 #  medium: yourname
