@@ -1,9 +1,9 @@
 ---
 layout: page
-title: ### About Me
+title: 
 ---
 
-My name is **Shirin Shoushtari**, and I am a fourth-year Ph.D. student in the **Department of Electrical and Systems Engineering (ESE)** at **Washington University in St. Louis**. I am a member of the [Computational Imaging Group (CIG Lab)](https://cigroup.wustl.edu), advised by [Professor Ulugbek Kamilov](https://cigroup.wustl.edu/ulugbek-s-kamilov/).  
+My name is **Shirin Shoushtari**, and I am a fourth-year Ph.D. student in the **Department of Electrical and Systems Engineering (ESE)** at **Washington University in St. Louis**. I am a member of the [Computational Imaging Group (CIG Lab)](https://cigroup.wustl.edu), advised by [Professor Ulugbek Kamilov](https://ukmlv.github.io).  
 
 My research focuses on **computational imaging**, **medical image analysis**, **inverse problems**, and **distribution shift** in learning-based reconstruction methods. I am particularly interested in developing algorithms that enhance the robustness and interpretability of imaging systems.  
 
