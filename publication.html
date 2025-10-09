@@ -46,10 +46,22 @@
       text-decoration: none;
       color: #333;
       font-size: 0.9em;
+      cursor: pointer;
     }
 
     .links a:hover {
       background: #e0e0e0;
+    }
+
+    .bibtex {
+      display: none;
+      background: #f8f8f8;
+      border-left: 3px solid #ccc;
+      margin-top: 10px;
+      padding: 10px;
+      font-family: monospace;
+      white-space: pre-wrap;
+      font-size: 0.9em;
     }
   </style>
 </head>
@@ -76,57 +88,27 @@
         <div class="links">
           <a href="https://arxiv.org/abs/2505.11482">arXiv</a>
           <a href="https://wustl-cig.github.io/distshiftwww/">Project</a>
-          <a href="#">BibTeX</a>
+          <a onclick="toggleBib('bib1')">BibTeX</a>
           <a href="#">Code</a>
+        </div>
+
+        <div id="bib1" class="bibtex">
+@article{shoushtari2025unsupervised,
+  title={Unsupervised Detection of Distribution Shift in Inverse Problems using Diffusion Models},
+  author={Shoushtari, Shirin and Chandler, Edward P and Wang, Yuanhao and Asif, M Salman and Kamilov, Ulugbek S},
+  journal={arXiv preprint arXiv:2505.11482},
+  year={2025}
+}
         </div>
       </td>
     </tr>
-
-    <!-- Paper 2 -->
-    <tr>
-      <td class="paper">
-        <papertitle>Measurement Score-Based Diffusion Model</papertitle><br>
-        Chicago Y. Park, <strong>Shirin Shoushtari</strong>, Hongyu An, Ulugbek S. Kamilov<br>
-        <em>arXiv, 2025</em><br>
-        <div class="links">
-          <a href="https://arxiv.org/abs/2505.11853">arXiv</a>
-          <a href="https://wustl-cig.github.io/msmwww/">Project</a>
-          <a href="#">BibTeX</a>
-          <a href="#">Code</a>
-        </div>
-      </td>
-    </tr>
-
-    <!-- Paper 3 -->
-    <tr>
-      <td class="paper">
-        <papertitle>Closed-Form Approximation of the Total Variation Proximal Operator</papertitle><br>
-        Edward P. Chandler, <strong>Shirin Shoushtari</strong>, Brendt Wohlberg, Ulugbek S. Kamilov<br>
-        <em>IEEE Transactions on Computational Imaging (TCI), 2025</em><br>
-        <div class="links">
-          <a href="https://arxiv.org/abs/2412.07718">arXiv</a>
-          <a href="#">BibTeX</a>
-          <a href="#">Code</a>
-        </div>
-      </td>
-    </tr>
-
-    <!-- Paper 4 -->
-    <tr>
-      <td class="paper">
-        <papertitle>FLAIR: A Conditional Diffusion Framework with Applications to Face Video Restoration</papertitle><br>
-        Zihao Zou, Jiaming Liu, <strong>Shirin Shoushtari</strong>, Yubo Wang, Ulugbek S. Kamilov<br>
-        <em>WACV, 2025</em><br>
-        <div class="links">
-          <a href="https://ieeexplore.ieee.org/abstract/document/10943589">IEEE</a>
-          <a href="https://wustl-cig.github.io/flairwww/">Project</a>
-          <a href="#">BibTeX</a>
-          <a href="#">Code</a>
-        </div>
-      </td>
-    </tr>
-
-    <!-- Add more papers similarly -->
   </table>
+
+  <script>
+    function toggleBib(id) {
+      const bib = document.getElementById(id);
+      bib.style.display = (bib.style.display === "none" || bib.style.display === "") ? "block" : "none";
+    }
+  </script>
 </body>
 </html>
