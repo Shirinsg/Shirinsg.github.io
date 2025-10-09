@@ -14,7 +14,6 @@ author: Shirin Shoushtari
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
   Publications : "publication"
   CV: "assets/Shirin_CV-2.pdf"
   Google Scholar: "https://scholar.google.com/citations?user=KMx7OKcAAAAJ&hl=en"
